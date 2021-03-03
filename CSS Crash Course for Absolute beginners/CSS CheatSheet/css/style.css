@@ -47,6 +47,10 @@ a:active{
     color: white;
 }
 
+.clr{
+    clear: both;
+}
+
 .container{
     width: 80% ;
     margin: auto;
