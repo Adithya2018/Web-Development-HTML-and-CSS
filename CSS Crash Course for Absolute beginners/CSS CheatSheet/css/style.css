@@ -42,6 +42,11 @@ a:active{
     border: none;
 }
 
+.button:hover{
+    background-color: red;
+    color: white;
+}
+
 .container{
     width: 80% ;
     margin: auto;
