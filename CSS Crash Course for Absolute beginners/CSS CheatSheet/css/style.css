@@ -31,9 +31,9 @@ a:active{
     color: green;
 }
 
-a:visited{
+/* a:visited{
     color: black;
-}
+} */
 
 .button{
     background-color: #333;
