@@ -58,3 +58,15 @@ header .highlight, header .current a{
     color: #e8491d;
     font-weight: bold;
 }
+
+header a:hover{
+    color: #ccc;
+    font-weight: bold;
+}
+
+/* Showcase */
+#showcase{
+    min-height: 400px;
+    background: url('../img/showcase.png') no-repeat;
+}
+
