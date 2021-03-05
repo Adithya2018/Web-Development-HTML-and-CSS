@@ -12,3 +12,4 @@ I wanted to keep a list of all websites that I implemented with the above playli
 So here is the list:
 
 1. [ACME - Responsive web design project](https://adithya2018.github.io/ACME-Traversy-Media/index.html) 
+2. [CSS Crash Course My Website](https://adithya2018.github.io/CSS-Crash-Course-My-Website/index.html)
