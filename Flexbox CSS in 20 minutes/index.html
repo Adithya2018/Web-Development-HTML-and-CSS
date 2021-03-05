@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Tutorial</title>
     <style>
-
-        .container-1{
+        @media(min-width: 768px){
+            .container-1{
             display: flex;
             /* align-items: flex-start;
                align-items: flex-end;
             */
             /* flex-direction: column; */
 
-        }
+            }
 
-        .container-2{
+            .container-2{
             display: flex;
             /* align-items: flex-start;
                align-items: flex-end;
@@ -27,9 +27,17 @@
                justify-content: center; 
                justify-content: space-between;*/
             justify-content: space-around;
+            }
         }
 
-        .container-1 div, .container-2 div{
+        .container-3{
+            display: flex;
+            justify-content: space-between;
+        }
+
+       
+
+        .container-1 div, .container-2 div, .container-3 div{
             border: 1px #ccc solid;
             padding: 10px;
         }
@@ -52,6 +60,10 @@
 
         .container-2-box{
             flex-basis: 30%;
+        }
+
+        .container-3-box{
+            flex-basis: 15%;
         }
 
     </style>
@@ -92,6 +104,45 @@
             </div>
         </div>
     </div>    
+
+    <div class="container-3">
+        <div class="container-3-box">
+            <div class="box-1">
+                <h3>Box Four</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, fuga.</p>
+            </div>
+        </div>
+        <div class="container-3-box">
+            <div class="box-2">
+                <h3>Box Five</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, fuga.</p>
+            </div>
+        </div>
+        <div class="container-3-box">
+            <div class="box-3">
+                <h3>Box Six</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, fuga.</p>
+            </div>
+        </div>
+        <div class="container-3-box">
+            <div class="box-1">
+                <h3>Box Four</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, fuga.</p>
+            </div>
+        </div>
+        <div class="container-3-box">
+            <div class="box-2">
+                <h3>Box Five</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, fuga.</p>
+            </div>
+        </div>
+        <div class="container-3-box">
+            <div class="box-3">
+                <h3>Box Six</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, fuga.</p>
+            </div>
+        </div>
+    </div>  
 
 </body>
 </html>
